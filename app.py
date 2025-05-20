@@ -75,7 +75,7 @@ else:
         st.error(f"Error configuring Gemini API: {e}. Please check your API key.")
 
 # --- Main Streamlit UI ---
-st.title("📝 Semantic Search Engine")
+st.title("📝 Saxo VE Search")
 st.write("Enter a query to find the most relevant pages from the indexed website.")
 
 # Load data
