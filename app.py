@@ -76,7 +76,7 @@ else:
 
 # --- Main Streamlit UI ---
 st.title("📝 Saxo VE Search")
-st.write("Enter a query to find the most relevant pages from the indexed website.")
+st.write("Enter a query to find the top 5 pages based on Cosine Similarity. 1 is identical, -1 is total opposite")
 
 # Load data
 urls, page_embeddings, _ = load_data(CSV_FILE_PATH)
